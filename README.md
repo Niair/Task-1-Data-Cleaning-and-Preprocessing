@@ -6,7 +6,7 @@ This project demonstrates **advanced data cleaning and preprocessing** technique
 
 ## 📂 Dataset Information
 
-The dataset includes customer demographics and purchasing behavior with the following features:
+The dataset includes customer demographics and purchasing behaviour with the following features:
 - Demographics (e.g., `year_birth`, `education`, `marital_status`, `income`)
 - Purchase history (e.g., `mntwines`, `mntfruits`, `mntmeatproducts`, etc.)
 - Web and store interaction metrics
@@ -59,8 +59,17 @@ Implemented a **Scikit-learn `ColumnTransformer` pipeline**:
 
 ## 📁 File Structure
 ```
-Task1_Data_Cleaning_and_Preprocessing/
-├── Task1_Data_Cleaning_and_Preprocessing.ipynb
-├── processed_data.csv
+Task1_(Data_Cleaning_and_Preprocessing)/
+│
+├── data/
+│   ├── raw_data/
+│   │   └── marketing_campaign.csv                      # Original unprocessed dataset
+│   ├── processed_data/
+│   │   └── processed_data.csv                          # Final cleaned and preprocessed data
+│
+├── notebooks/
+│   └── Task1_(Data _Cleaning_and_Preprocessing).ipynb  # Jupyter Notebook for cleaning steps
+│
+├── .gitignore
+├── README.md
 ├── requirements.txt
-└── README.md
