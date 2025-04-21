@@ -41,21 +41,21 @@ Implemented a **Scikit-learn `ColumnTransformer` pipeline**:
 ## 📝 How to Run
 
 1. Clone the repository:
-   ```bash
+   ```
    git clone https://github.com/Niair/Task1_Data_Cleaning_and_Preprocessing.git
    cd Task1_Data_Cleaning_and_Preprocessing
 
 2. Install the requirements:
 
-pip install -r requirements.txt
+   pip install -r requirements.txt
 
 3. Run the Jupyter Notebook or script:
 
-jupyter notebook Task1_Data_Cleaning_and_Preprocessing.ipynb
+   jupyter notebook Task1_Data_Cleaning_and_Preprocessing.ipynb
 
 4. The processed data will be saved as:
 
-processed_data.csv
+   processed_data.csv
 
 ## 📁 File Structure
 Task1_Data_Cleaning_and_Preprocessing/
